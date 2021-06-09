@@ -1,0 +1,12 @@
+{"0991ec8c-611a-4fa2-8383-4fe9fe0fa4ac": {
+   "resourceKinds": [{
+      "resourceKindKey": "HostSystem",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1623223497349,
+   "name": "Host system CPU over commitment",
+   "formula": "(${this, metric=cpu|vcpus_allocated_on_all_powered_on_vms})/${this, metric=cpu|corecount_provisioned}",
+   "description": "",
+   "unitId": "",
+   "modifiedBy": "ec71ea75-3d8e-410b-a8f7-e3d76b32e62b"
+}}
